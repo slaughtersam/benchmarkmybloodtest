@@ -4,7 +4,7 @@
 const SYNTHETIC_DOMAIN = "anon.benchmarkmybloodtest.com";
 
 export const USERNAME_PATTERN = /^[a-z]+-[a-z]+-[0-9]{4}$/;
-export const MIN_PASSWORD_LENGTH = 10;
+export const MIN_PASSWORD_LENGTH = 8;
 
 export function normalizeUsername(input: string): string {
   return input.trim().toLowerCase().replace(/\s+/g, "-");
